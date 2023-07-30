@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exceptr/ahj-ws-backend.git"
+  },
+  "author": "exceptr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exceptr/ahj-ws-backend/issues"
+  },
+  "homepage": "https://github.com/exceptr/ahj-ws-backend#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^0.14.2",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
