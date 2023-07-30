@@ -3,6 +3,8 @@
 # Ссылка на [backend](https://github.com/exceptr/ahj-ws-backend.git)
 # Ссылка на [frontend](https://github.com/exceptr/ahj-ws-frontend.git)
 
+# Ссылка на [render](https://ahj-ws-backend-mm9f.onrender.com)
+
 # Домашнее задание к занятию "8. EventSource, Websockets"
 
 Правила сдачи задания:
